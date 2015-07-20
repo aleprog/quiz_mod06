@@ -16,4 +16,10 @@ router.get('/', function(req, res) {
 router.get('/quizes/question', quizControl.question);
 router.get('/quizes/answer', quizControl.answer);
 
+/* GET author page */
+router.get('/author', function(req, res) {
+    res.redirect('https://github.com/aleprog/quiz_mod06/tree/master/quiz');
+    console.log('---> redirecting to personal page');
+});
+
 module.exports = router;
