@@ -18,7 +18,7 @@ router.get('/quizes/answer', quizControl.answer);
 
 /* GET author page */
 router.get('/author', function(req, res) {
-    res.redirect('https://github.com/aleprog/quiz_mod06/tree/master/quiz');
+    res.redirect('https://github.com/aleprog/quiz_mod06');
     console.log('---> redirecting to personal page');
 });
 
